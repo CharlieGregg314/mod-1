@@ -1,5 +1,5 @@
 items = {}
-create_item = create(items, Item)
+create_item = require("create.js").create(items, Item)
 create_item({
     name: "Flakite", 
     color: Color.valueOf("949378"),
