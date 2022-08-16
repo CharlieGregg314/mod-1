@@ -5,6 +5,6 @@ create_block(Wall, {
     name: "Flakite Wall", 
     health: 8000,
     requirements: [new ItemStack(items.flakite, 6)],
-    category: "defense"
+    category: Category.wall
 })
 module.exports = blocks
