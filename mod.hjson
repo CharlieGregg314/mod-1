@@ -3,6 +3,6 @@ displayName: "Test Mod 1"
 author: "CharlieGregg314"
 description: "This is a test mod."
 version: "1.0"
-minGameVersion: "135.2"
+minGameVersion: "136"
 dependencies: [ ]
 hidden: false
