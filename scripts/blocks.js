@@ -1,6 +1,6 @@
 const items = require("items")
 const blocks = {}
-console.log(Block("flakite-wall").category)
+log(Block("flakite-wall").category)
 // const create_block = require("create")(blocks)
 // create_block(Wall, {
 //     name: "Flakite Wall", 
