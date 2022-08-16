@@ -1,19 +1,13 @@
 function create(obj, base) {
     if (base === undefined) {
-        return function(base, {name, ...opts}) {
-            let id = name.toLowerCase().replace(" ", "-")
-            obj[id] = extend(base, id, {
-                name,
-                ...opts
-            })
+        return function(base, opts) {
+            let id = opts.name.toLowerCase().replace(" ", "-")
+            obj[id] = extend(base, id, opts)
         }
     } else {
-        return function({name, ...opts}) {
-            let id = name.toLowerCase().replace(" ", "-")
-            obj[id] = extend(base, id, {
-                name,
-                ...opts
-            })
+        return function(opts) {
+            let id = opts.name.toLowerCase().replace(" ", "-")
+            obj[id] = extend(base, id, opts)
         }
     }
 }
