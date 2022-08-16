@@ -5,3 +5,4 @@ requirements: [
     flakite/24
 ]
 category: defense
+destructible: true
