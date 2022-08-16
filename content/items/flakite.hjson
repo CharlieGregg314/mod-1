@@ -1,0 +1,5 @@
+name: "Flakite", 
+color: Color.valueOf("949378"),
+flammability: 0.2,
+charge: 0.4,
+cost: 0.5
