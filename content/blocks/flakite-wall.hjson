@@ -1,7 +1,0 @@
-type: Wall
-name: Flakite Wall
-health: 8000
-requirements: [
-    flakite/6
-]
-category: defense
