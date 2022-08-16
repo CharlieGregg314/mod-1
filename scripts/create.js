@@ -11,3 +11,4 @@ function create(obj, base) {
         }
     }
 }
+module.exports={create}
