@@ -1,5 +1,5 @@
 const items = {}
-const create_item = require("create.js").create(items, Item)
+const create_item = require("create").create(items, Item)
 create_item({
     name: "Flakite", 
     color: Color.valueOf("949378"),
