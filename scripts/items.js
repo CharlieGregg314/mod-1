@@ -1,11 +1,5 @@
 items = {}
-function create_item({name, ...opts}) {
-    id = name.toLowerCase().replace(" ", "-")
-    items[id] = extend(Item, id, {
-        name,
-        ...opts
-    })
-}
+create_item = create(items)
 create_item({
     name: "Flakite", 
     color: Color.valueOf("949378"),
