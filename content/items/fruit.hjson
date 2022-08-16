@@ -1,0 +1,4 @@
+name: "Fruit", 
+color: "ee3333",
+flammability: 0.4,
+cost: 0.5
