@@ -1,3 +1,4 @@
+type: Wall
 name: Large Flakite Wall
 health: 32000
 size: 2
@@ -5,4 +6,3 @@ requirements: [
     flakite/24
 ]
 category: defense
-destructible: true
