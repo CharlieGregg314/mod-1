@@ -1,30 +1,7 @@
-const myBlock = extend(Conveyor, "terrible-conveyor", {
-  // various overrides...
-  size: 3,
-  health: 200
-  //...
-});
 blocks = {}
 create_block = create(blocks)
-create_item({
-    name: "Flakite", 
-    color: Color.valueOf("949378"),
-    flammability: 0.2,
-    charge: 0.4,
-    cost: 0.5
-})
-create_item({
-    name: "Pyroblate",
-    color: Color.valueOf("c48834"),
-    flammability: 0.8,
-    explosiveness: 0.2,
-    cost: 0.8,
-    healthScaling: 0.2
-})
-create_item({
-    name: "Diricyte",
-    color: Color.valueOf("12c098"),
-    charge: 0.9,
-    cost: 1.3,
-    healthScaling: 0.8
+create_block(Wall, {
+    name: "Flakite Wall", 
+    health: 80,
+    requirements: []
 })
