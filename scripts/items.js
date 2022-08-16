@@ -1,5 +1,5 @@
 const items = {}
-const create_item = require("create").create(items, Item)
+const create_item = require("create")(items, Item)
 create_item({
     name: "Flakite", 
     color: Color.valueOf("949378"),
@@ -22,3 +22,4 @@ create_item({
     cost: 1.3,
     healthScaling: 0.8
 })
+module.exports = items
