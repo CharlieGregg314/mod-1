@@ -6,3 +6,8 @@ craftTime: 180
 consumes: {
   power: 5
 }
+requirements: [
+  wood/100
+  iron/50
+  gold/40
+]
