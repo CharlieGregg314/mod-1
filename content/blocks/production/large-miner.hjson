@@ -8,4 +8,13 @@ requirements: [
   iron/80
   copper/30
 ]
+consumes: {
+  liquid: {
+    liquid: spicy-cooking-oil
+    amount: 0.3
+    booster: true
+    optional: true
+  }
+}
+liquidBoostIntensity: 3
 category: production
