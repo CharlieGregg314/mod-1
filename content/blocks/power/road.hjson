@@ -2,3 +2,7 @@ type: PowerNode
 name: Road
 maxNodes: 8
 laserRange: 8
+requirements: [
+  iron/30
+  stone/20
+]
