@@ -10,7 +10,7 @@ requirements: [
 ]
 consumes: {
   liquid: {
-    liquid: spicy-cooking-oil
+    liquid: spicy-oil
     amount: 0.3
     booster: true
     optional: true
