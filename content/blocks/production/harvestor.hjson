@@ -2,3 +2,4 @@ type: Drill
 name: Harvestor
 tier: 1
 drillTime: 600
+category: production
