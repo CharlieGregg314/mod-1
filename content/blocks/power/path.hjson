@@ -1,0 +1,4 @@
+type: PowerNode
+name: Path
+maxNodes: 4
+laserRange: 4
