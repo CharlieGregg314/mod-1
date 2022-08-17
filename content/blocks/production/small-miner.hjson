@@ -3,4 +3,17 @@ name: Small Miner
 tier: 2
 size: 2
 drillTime: 500
+requirments: [
+  wood/30
+  stone/60
+]
+consumes: {
+  liquid: {
+    liquid: cooking-oil
+    amount: 0.1
+    booster: true
+    optional: true
+  }
+}
+liquidBoostIntensity: 2.5
 category: production
