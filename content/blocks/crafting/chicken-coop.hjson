@@ -1,5 +1,5 @@
 type: GenericCrafter
-name: Chicken Trapper
+name: Chicken Coop
 size: 3
 outputItem: raw-chicken/1
 craftTime: 180
