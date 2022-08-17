@@ -2,4 +2,7 @@ type: Drill
 name: Harvestor
 tier: 1
 drillTime: 600
+requirements: [
+  wood/50
+]
 category: production
