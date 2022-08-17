@@ -3,4 +3,7 @@ name: Wood Cutter
 size: 3
 outputItem: wood/1
 craftTime: 30
+requirements: [
+  wood/30
+]
 category: production
