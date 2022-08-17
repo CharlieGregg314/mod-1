@@ -1,0 +1,5 @@
+name: Spicy Oil
+color: "ffbb88"
+temperature: 0.8
+heatCapacity: 0.85
+effect: spicy-oilled
