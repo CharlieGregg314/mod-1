@@ -1,0 +1,4 @@
+type: PowerNode
+name: Road
+maxNodes: 8
+laserRange: 8
