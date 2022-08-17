@@ -1,12 +1,21 @@
 name: Sauce Sprayer
 type: LiquidTurret
 size: 2
+inaccuracy: 10
+spread: 16
+range: 20
+targetAir: true
+targetGround: true
 ammoTypes: {
   jam: {
     type: liquidBulletType
     liquid: jam
     lifetime: 180
-    damage: 125
+    damage: 20
+    knockback: 0
+    puddleSize: 16
+    orbSize: 10
+    drag: 0.1
   }
 }
 requirements: [
