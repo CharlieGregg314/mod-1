@@ -1,0 +1,14 @@
+name: Sauce Sprayer
+type: LiquidTurret
+size: 2
+ammoTypes: {
+  jam: {
+    type: liquidBulletType
+    liquid: jam
+    lifetime: 180
+    damage: 125
+  }
+}
+requirements: [
+  wood/100
+]
