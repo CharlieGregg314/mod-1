@@ -2,8 +2,7 @@ name: Sauce Sprayer
 type: LiquidTurret
 size: 2
 inaccuracy: 10
-spread: 16
-range: 20
+range: 320
 targetAir: true
 targetGround: true
 ammoTypes: {
@@ -15,10 +14,31 @@ ammoTypes: {
     knockback: 0
     puddleSize: 16
     orbSize: 10
-    drag: 0.1
+    drag: 0.05
+  }
+  cooking-oil: {
+    type: liquidBulletType
+    liquid: cooking-oil
+    lifetime: 60
+    damage: 40
+    knockback: 0.5
+    puddleSize: 8
+    orbSize: 7
+    drag: 0.03
+  }
+  spicy-oil: {
+    type: liquidBulletType
+    liquid: spicy-oil
+    lifetime: 60
+    damage: 60
+    knockback: 0.5
+    puddleSize: 8
+    orbSize: 7
+    drag: 0.03
   }
 }
 requirements: [
   wood/100
+  iron/40
 ]
 category: turret
