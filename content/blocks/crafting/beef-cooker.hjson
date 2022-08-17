@@ -1,0 +1,18 @@
+type: GenericCrafter
+name: Beef Cooker
+outputItem: beef/2
+size: 3
+consumes: {
+    items: {
+        items: [
+            raw-beef/2
+            wood/1
+        ]
+    }
+}
+requirements: [
+    stone/20
+    iron/50
+    gold/20
+]
+category: crafting
