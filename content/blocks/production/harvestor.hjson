@@ -5,4 +5,13 @@ drillTime: 600
 requirements: [
   wood/50
 ]
+consumes: {
+  liquid: {
+    liquid: jam
+    amount: 0.1
+    booster: true
+    optional: true
+  }
+}
+liquidBoostIntensity: 2.5
 category: production
