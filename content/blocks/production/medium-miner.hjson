@@ -3,4 +3,8 @@ name: Medium Miner
 tier: 3
 size: 3
 drillTime: 400
+requirements: [
+  stone/30
+  copper/60
+]
 category: production
