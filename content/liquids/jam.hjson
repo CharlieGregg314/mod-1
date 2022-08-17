@@ -1,5 +1,8 @@
+type: CellLiquid
 name: Jam
 color: "dd2222"
+colorFrom: "dd2222"
+colorTo: "dd7722"
 temperature: 0.6
 heatCapacity: 0.6
 effect: jammed
