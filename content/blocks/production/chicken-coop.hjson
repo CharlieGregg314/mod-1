@@ -6,4 +6,7 @@ craftTime: 180
 consumes: {
   power: 2
 }
+requirements: [
+  wood/100
+]
 category: production
