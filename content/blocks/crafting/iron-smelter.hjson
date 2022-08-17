@@ -1,0 +1,18 @@
+type: GenericCrafter
+name: Iron Smelter
+outputItem: iron/1
+size: 3
+craftTime: 60
+consumes: {
+    power: 2
+    items: {
+        items: [
+            iron-ore/1
+        ]
+    }
+}
+requirements: [
+    wood/50
+    stone/100
+]
+category: crafting
