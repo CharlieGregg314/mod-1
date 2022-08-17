@@ -3,7 +3,7 @@ name: Small Miner
 tier: 2
 size: 2
 drillTime: 500
-requirments: [
+requirements: [
   wood/30
   stone/60
 ]
