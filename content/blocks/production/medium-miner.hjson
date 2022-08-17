@@ -7,4 +7,13 @@ requirements: [
   stone/30
   copper/60
 ]
+consumes: {
+  liquid: {
+    liquid: cooking-oil
+    amount: 0.2
+    booster: true
+    optional: true
+  }
+}
+liquidBoostIntensity: 2.5
 category: production
