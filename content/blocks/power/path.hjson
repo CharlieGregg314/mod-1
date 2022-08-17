@@ -2,3 +2,6 @@ type: PowerNode
 name: Path
 maxNodes: 4
 laserRange: 4
+requirements: [
+  wood/20
+]
