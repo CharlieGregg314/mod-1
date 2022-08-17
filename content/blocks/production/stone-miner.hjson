@@ -3,4 +3,7 @@ name: Stone Miner
 size: 2
 outputItem: stone/1
 craftTime: 60
+requirements: [
+  wood/80
+]
 category: production
