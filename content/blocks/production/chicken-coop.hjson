@@ -5,7 +5,14 @@ outputItem: raw-chicken/1
 craftTime: 180
 consumes: {
   power: 2
+  liquid: {
+    liquid: jam
+    amount: 0.1
+    booster: true
+    optional: true
+  }
 }
+liquidBoostIntensity: 3
 requirements: [
   wood/100
 ]
