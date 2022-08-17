@@ -4,7 +4,9 @@ outputItem: jam/1
 size: 1
 craftTime: 180
 consumes: {
-    item: fruit/1
+    items: [
+        fruit/1
+    ]
 }
 requirements: [
     wood/40
