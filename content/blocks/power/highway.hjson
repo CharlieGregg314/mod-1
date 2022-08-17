@@ -1,0 +1,8 @@
+type: PowerNode
+name: Path
+maxNodes: 32
+laserRange: 32
+requirements: [
+  gold/60
+  iron/40
+]
