@@ -5,7 +5,14 @@ outputItem: raw-beef/1
 craftTime: 180
 consumes: {
   power: 5
+  liquid: {
+    liquid: jam
+    amount: 0.2
+    booster: true
+    optional: true
+  }
 }
+liquidBoostIntensity: 3
 requirements: [
   wood/100
   iron/50
