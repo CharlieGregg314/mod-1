@@ -1,0 +1,5 @@
+name: Cooking Oil
+color: "ddaa88"
+temperature: 0.7
+heatCapacity: 0.8
+effect: oilled
