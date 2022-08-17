@@ -1,0 +1,6 @@
+type: GenericCrafter
+name: Stone Miner
+size: 2
+outputItem: stone/1
+craftTime: 60
+category: production
