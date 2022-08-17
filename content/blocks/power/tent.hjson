@@ -1,0 +1,11 @@
+type: ConsumeGenerator
+name: Tent
+itemDuration: 240
+powerProduction: 1
+consumes: {
+  items: {
+    items: [
+      fruit/1
+    ]
+  }
+}
