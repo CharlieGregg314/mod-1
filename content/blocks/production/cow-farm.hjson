@@ -1,0 +1,14 @@
+type: GenericCrafter
+name: Cow Farm
+size: 9
+outputItem: raw-beef/1
+craftTime: 180
+consumes: {
+  power: 5
+}
+requirements: [
+  wood/100
+  iron/50
+  gold/40
+]
+category: production
