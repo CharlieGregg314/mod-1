@@ -3,4 +3,9 @@ name: Large Miner
 tier: 4
 size: 4
 drillTime: 300
+requirements: [
+  stone/30
+  iron/80
+  copper/30
+]
 category: production
