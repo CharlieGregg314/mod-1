@@ -3,3 +3,4 @@ name: Small Miner
 tier: 2
 size: 2
 drillTime: 500
+category: production
