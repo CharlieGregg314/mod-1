@@ -1,0 +1,18 @@
+type: GenericCrafter
+name: Danish Maker
+outputItem: danish/1
+size: 3
+consumes: {
+    items: {
+        items: [
+            bread/1
+            fruit/1
+        ]
+    }
+}
+requirements: [
+    wood/20
+    stone/30
+    iron/10
+]
+category: crafting
