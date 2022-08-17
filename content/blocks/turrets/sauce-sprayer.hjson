@@ -12,3 +12,4 @@ ammoTypes: {
 requirements: [
   wood/100
 ]
+category: turret
