@@ -1,0 +1,8 @@
+type: GenericCrafter
+name: Chicken Trapper
+size: 9
+outputItem: raw-beef/1
+craftTime: 180
+consumes: {
+  power: 5
+}
