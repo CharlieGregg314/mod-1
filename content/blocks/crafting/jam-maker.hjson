@@ -1,6 +1,6 @@
 type: GenericCrafter
 name: Jam Squisher
-outputItem: jam/1
+outputLiquid: jam/0.1
 size: 1
 craftTime: 180
 consumes: {
