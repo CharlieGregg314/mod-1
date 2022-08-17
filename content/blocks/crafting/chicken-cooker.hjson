@@ -1,0 +1,18 @@
+type: GenericCrafter
+name: Chicken Cooker
+outputItem: chicken/2
+size: 2
+consumes: {
+    items: {
+        items: [
+            chicken/2
+            wood/1
+        ]
+    }
+}
+requirements: [
+    wood/80
+    stone/20
+    iron/10
+]
+category: crafting
