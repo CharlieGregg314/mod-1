@@ -1,0 +1,18 @@
+type: GenericCrafter
+name: Gold Smelter
+outputItem: gold/1
+size: 3
+craftTime: 100
+consumes: {
+    power: 3
+    items: {
+        items: [
+            gold-ore/1
+        ]
+    }
+}
+requirements: [
+    stone/100
+    iron/50
+]
+category: crafting
