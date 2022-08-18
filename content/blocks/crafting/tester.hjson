@@ -4,7 +4,7 @@ outputItem: copper/1
 size: 2
 craftTime: 60
 consumes: {
-    liquid: {
+    liquids: {
       liquids: [
         water/1
         slag/1
