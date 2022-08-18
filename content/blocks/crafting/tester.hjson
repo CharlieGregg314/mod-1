@@ -1,0 +1,17 @@
+type: GenericCrafter
+name: tester
+outputItem: copper/1
+size: 2
+craftTime: 60
+consumes: {
+    liquid: {
+      liquids: [
+        water/1
+        slag/1
+      ]
+    }
+}
+requirements: [
+    copper/1
+]
+category: crafting
